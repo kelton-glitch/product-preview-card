@@ -17,10 +17,10 @@
 
   <main>
     <article class="card" aria-labelledby="product-name" aria-describedby="product-description">
-      <div class="card-image">
-        <img src="/images/image-product-mobile.jpg" alt="Bottle of Gabrielle Essence Eau De Parfum" role="img" class="responsive-image small-screen">
-        <img src="/images/image-product-desktop.jpg" alt="Bottle of Gabrielle Essence Eau De Parfum" role="img" class="responsive-image large-screen">
-      </div>
+      <picture class="card-image">
+        <source media="(min-width: 710px)" srcset="/images/image-product-desktop.jpg">
+        <img src="/images/image-product-mobile.jpg" alt="Bottle of Gabrielle Essence Eau De Parfum" role="img" class="responsive-image">
+      </picture>
       <div class="card-content">
         <span class="category">PERFUME</span>
         <h1 id="product-name" class="product-name">Gabrielle Essence Eau De Parfum</h1>
@@ -32,7 +32,7 @@
           <span class="original-price">$169.99</span>
         </div>
         <a class="add-to-cart" aria-label="Add Gabrielle Essence Eau De Parfum to Cart">
-          <img src="/images/icon-cart.svg">
+          <img src="/images/icon-cart.svg" alt="cart">
           <span>Add to Cart</span>
         </a>
       </div>

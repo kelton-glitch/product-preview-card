@@ -156,12 +156,6 @@ main {
     main{
         max-width: 1440px;
     }
-    .large-screen{
-        display: block;
-    }
-    .small-screen{
-        display: none;
-    }
 
     .card{
         display: flex;
