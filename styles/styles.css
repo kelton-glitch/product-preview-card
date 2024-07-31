@@ -47,6 +47,14 @@ main {
     border-radius: 15px ;
 }
 
+.card-image img{
+    transition: box-shadow 0.3s ease;
+    transition: transform 0.3s ease;
+}
+.card-image img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
 .responsive-image{
     width: 100%;
     height: auto;
@@ -116,6 +124,12 @@ main {
     text-align: center;
     justify-content: center;
     align-items: center;
+    transition: 0.3s ease-in;
+}
+
+.add-to-cart:hover{
+    background-color: hsl(158, 27%, 49%);
+    cursor:grab;
 }
 
 .add-to-cart img {
